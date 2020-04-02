@@ -15,7 +15,8 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: red;
-}
+    background-image: url(./images/mastehead.jpg);
+    background-position:center;}
 
 #section1 {
     width: 100vw;
@@ -26,25 +27,29 @@ body{
 #section2 {
     width: 100vw;
     padding: 10%;
-    background-color: yellowgreen;
+    background-color: white;
 }
 
     #section2-bloc1{
         height: 20%;
-        background-color: pink;
+        background-color: palevioletred;
 
     }
     #section2-bloc2{
         background-color: purple;
+       
 
     }
     #section2-bloc3{
         background-color: sandybrown;
+        background-image: url(./images/box-bg.jpg);
+       
 
     }
     #section2-bloc4{
 
         background-color: seashell;
+        background-image: url(./images/box-bg-lg.jpg);
     }
     #section2-bloc5{
 
@@ -63,6 +68,8 @@ body{
     height: 50vh;
     padding: 10%;
     background-color: green;
+    background-image: url(./images/full-image.jpg);
+    background-position: ;
 }
 
 #section5 {
