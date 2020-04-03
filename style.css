@@ -9,12 +9,39 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #header {
     width: 100vw;
     height: 100vh;
     background: url(./images/mastehead.jpg) no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+   }
+   #header p{
+font-size: 10px;
+padding-top: 5%;
+   }
+h1{
+    font-size: 40px;
+}
+
+nav{
+    padding:1% 5% ;
+    display: flex;
+}
+#nom{
+    padding-left: 2%;
+    font-style: italic;
+    font-family: serif;
+}
+   #picture-perfect{
+       padding: 20% 10%;
+       width: 50%;
+       
    }
 
 #section1 {
