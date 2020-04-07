@@ -47,8 +47,17 @@ nav{
 #section1 {
     width: 100vw;
     padding: 10%;
-    background-color: aqua;
+    background-color: white;
 }
+.start_something p{
+    font-size: 10px;
+    padding-top: 5%;
+    color: gray;
+       }
+
+       .start_something h2{
+        font-size: 30px;
+    }
 
 #section2 {
     width: 100vw;
@@ -59,12 +68,17 @@ nav{
     padding: 10% 8%;
     color: white;
 }
+.box p{
+    font-size: 10px;
+    padding-top: 5%;
+    color: white;
+}
     #section2-bloc1{
-        background-color: palevioletred;
+        background-color: #f5989d;
 
     }
     #section2-bloc2{
-        background-color: purple;
+        background-color: #615f7d;
        
 
     }
@@ -81,7 +95,7 @@ nav{
     }
     #section2-bloc5{
 
-        background-color:rgb(98, 185, 98);
+        background-color: #5ccf86;
     }
 
 #section3 {
@@ -91,7 +105,12 @@ nav{
 }
 
 .box1{
-        margin: 2%;
+        margin: 10%;
+}
+.box1 p{
+    font-size: 10px;
+    padding-top: 30%;
+    color: white;
 }
 
 #section4 {
