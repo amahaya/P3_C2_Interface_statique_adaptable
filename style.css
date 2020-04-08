@@ -141,10 +141,10 @@ padding-top: 2%;
     width: 100vw;
     color: white;
     padding:50px;
-    background:#60d48b;
+    background:#84c99d;
 }
 
-#section5-bloc1 h3{
+#section5 h3{
     font-size: 20px;
 }
 
@@ -158,10 +158,23 @@ padding-top: 2%;
     background-color: white (255, 0, 179);
 }
 
-span{
-    
+.section6-bloc{
+padding: 5%;
+}
+
+.section6-bloc h3 {
+    padding: 5% 0%;
+
+}
+
+.section6 p{
+    padding: 5% 0%;
+}
+
+#legacy {
+    width: 20%;
+    padding: 10px;
     text-transform:uppercase;
-	padding:10px;
 	border-radius:4px;
 	background:#e1e1e1;
 	font-size:11px;
@@ -170,6 +183,11 @@ span{
 
 #pop{
     background: purple;
+    padding: 10px;
+    text-transform:uppercase;
+	border-radius:4px;
+	font-size:11px;
+	color:#fff;	
 }
 
 .buy {
@@ -188,7 +206,7 @@ span{
 
 
 footer{
-    background: black;
+    background: #192431;
     color: white;
     padding: 15%;
     font-size: 10px;
@@ -199,26 +217,66 @@ footer{
 }
 
 #footer-bloc2{
- display: flex;    
- justify-content: left;
+ display: flex; 
+ flex-direction: column;   
  flex-wrap: wrap;
 }
 
+#footer-email {
+    display: flex;
+
+}
 #footer-bloc2 h2{
     font-size: 10px;
     padding-bottom: 5px;
 }
+
+.spam {
+    font-size: 8px;
+}
+
 input{
-    width: 80vw;
+    width: 90%;
     height: 5vh;
     border: none;
     border-radius: 5px 0 0 5px;
 }
 #bouton{
-    width: 20vw;
+    width: 10%;
     color: white;
     background-color: #84c99d;
     border: none;
 }
 
+#footer-bloc3 h2 {
+
+    margin-bottom:10px; 
+        font-weight:bold;
+        font-size: 10px;
+
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    line-height: 2;
+  }
+
+
+.colonne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.colonne div{
+
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-bloc3{
+
+    padding-top: 15px;
+}
 
