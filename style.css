@@ -155,7 +155,7 @@ padding-top: 2%;
 #section6 {
     width: 100vw;
     padding: 10%;
-    background-color: white (255, 0, 179);
+    background-color: white;
 }
 
 .section6-bloc{
@@ -284,3 +284,4 @@ a {
     padding-top: 15px;
 }
 
+@media screen (min-width: 768px) and (max-width: 1024px)
