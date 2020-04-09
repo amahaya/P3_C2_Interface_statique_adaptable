@@ -50,7 +50,7 @@ nav{
     background-color: white;
 }
 .start_something p{
-    font-size: 10px;
+    font-size: 12px;
     padding-top: 5%;
     color: gray;
        }
@@ -284,4 +284,20 @@ a {
     padding-top: 15px;
 }
 
-@media screen (min-width: 768px) and (max-width: 1024px)
+
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    
+   .start_something {
+        display: flex;
+         flex-direction: row; 
+         justify-content: space-between;
+                 }
+    .section1p1, .section1p2 {
+                width: 47%;
+    }
+
+    .section1p2{
+    margin-top: 20%;    }
+    }
+
