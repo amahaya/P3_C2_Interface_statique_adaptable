@@ -340,10 +340,7 @@ a {
         width: 50%;
     }
     
-    #section5 {
-        
-    }
-
+   
     #section5-container{
         display: flex;
         flex-direction: row;
@@ -363,10 +360,20 @@ a {
     #section6-bloc{
         display: flex;
         flex-direction: row;
-        width: 50%;
+            }
 
-    }
-
-    
+    #section6 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+            }
 }
+
+.colonne{
+
+    display: flex;
+    padding-right: 30%;
+}
+
+@media screen and (min-width: 1024px)
 
